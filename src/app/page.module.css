@@ -1,0 +1,145 @@
+.header {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+}
+.header div {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.header h1 {
+  font-size: 16px;
+}
+.header p {
+  font-size: 8px;
+}
+
+.content {
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topMessage {
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.scrollingContainer {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+.scrollingContainer img {
+  width: 85%;
+  aspect-ratio: 16/9;
+  margin: 30px;
+}
+.mainMessage {
+  text-align: center;
+  width: 95%;
+  margin: 20px auto 0;
+  font-size: 8px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 40px auto 0;
+}
+.kodaiImg {
+  text-align: center;
+  flex: 1;
+}
+.kodaiImg h1 {
+  margin: 0;
+}
+.kodaiImg img {
+  width: 80%;
+  border-radius: 50%;
+}
+.career {
+  flex: 1;
+  text-align: center;
+}
+.career h2 {
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  margin: 0 0 20px;
+}
+.career p {
+  font-size: 7px;
+}
+
+.license {
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0;
+}
+.licenseList {
+  text-align: left;
+  font-size: 12px;
+  margin: 10px auto 0;
+}
+
+.price {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.message {
+  font-size: 12px;
+}
+
+.priceCards {
+  width: 95%;
+  margin-top: 20px;
+}
+.timeCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.timeCard div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+.timeCard div p {
+  font-size: 12px;
+}
+.recommendation {
+  color: red;
+  text-decoration: underline;
+}
+.optionCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.qrAndAccess {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+.lineQr {
+  flex: 1;
+  text-align: center;
+}
+.lineQr img {
+  width: 80%;
+}
+.access {
+  flex: 1;
+  font-size: 7px;
+}
+.access h2 {
+  text-align: center;
+  font-size: 24px;
+}

@@ -5,10 +5,12 @@ import React from "react";
 export default function Home() {
   return (
     <>
-    <header className={styles.header}>
-      <div>
-        <h1>IMPROVE STRETCH</h1>
-        <p>〒572-0084 大阪府寝屋川市香里南之32-5<br/>YNレジデンス 607号室</p>
+    <header className='shadow-md'>
+      <div className='flex justify-between items-center my-0 mx-auto w-[95%] h-14'>
+        <h1 className='font-bold'>IMPROVE STRETCH</h1>
+        <Link href="https://maps.app.goo.gl/5B4auCXvHaYtT2qg9" target='_blank'>
+          <p className='text-[8px] cursor-pointer'>〒572-0084 大阪府寝屋川市香里南之32-5<br/>YNレジデンス 607号室</p>
+        </Link>
       </div>
     </header>
     <div className={styles.content}>
@@ -123,7 +125,7 @@ export default function Home() {
       <div className={styles.qrAndAccess}>
         <div className={styles.lineQr}>
           <h2>お問い合わせ先</h2>
-          <Link href="https://lin.ee/qzUDHGR">
+          <Link href="https://lin.ee/qzUDHGR" target='_blank'>
             <img src="/qrcode.jpg" alt="LINE QRコード" />
           </Link>
         </div>

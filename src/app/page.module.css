@@ -9,17 +9,6 @@
   font-size: 14px;
   margin-top: 30px;
 }
-.scrollingContainer {
-  display: flex;
-  overflow-x: scroll;
-  white-space: nowrap;
-  width: 100%;
-}
-.scrollingContainer img {
-  width: 85%;
-  aspect-ratio: 16/9;
-  margin: 30px;
-}
 .mainMessage {
   text-align: center;
   width: 95%;
@@ -109,13 +98,6 @@
   display: flex;
   align-items: center;
   margin: 50px auto;
-}
-.lineQr {
-  flex: 1;
-  text-align: center;
-}
-.lineQr img {
-  width: 80%;
 }
 .access {
   flex: 1;

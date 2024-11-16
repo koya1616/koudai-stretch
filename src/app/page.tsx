@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import styles from "./page.module.css";
 import React from "react";
+import Image from 'next/image'
+import topImage1 from '../../public/top-image-1.jpg'
+import topImage2 from '../../public/top-image-2.jpg'
+import topImage3 from '../../public/top-image-3.jpg'
+import topImage4 from '../../public/top-image-4.jpg'
+import koudaiFace from '../../public/koudai.jpg'
+import lineQr from '../../public/qrcode.jpg'
 
 export default function Home() {
   return (
@@ -8,8 +15,8 @@ export default function Home() {
     <header className='shadow-md'>
       <div className='flex justify-between items-center my-0 mx-auto w-[95%] h-14'>
         <h1 className='font-bold'>IMPROVE STRETCH</h1>
-        <Link href="https://maps.app.goo.gl/5B4auCXvHaYtT2qg9" target='_blank'>
-          <p className='text-[8px] cursor-pointer'>〒572-0084 大阪府寝屋川市香里南之32-5<br/>YNレジデンス 607号室</p>
+        <Link href="https://maps.app.goo.gl/5B4auCXvHaYtT2qg9" target='_blank' className='text-[8px] cursor-pointer'>
+          〒572-0084 大阪府寝屋川市香里南之32-5<br/>YNレジデンス 607号室
         </Link>
       </div>
     </header>
@@ -17,11 +24,11 @@ export default function Home() {
       <div className={styles.topMessage}>
         幸福感を決める最も重要な項目は身体が健康であること。
       </div>
-      <div className={styles.scrollingContainer}>
-        <img src="/top-image-1.jpg" alt="部屋画像" />
-        <img src="/top-image-2.jpg" alt="部屋画像" />
-        <img src="/top-image-3.jpg" alt="部屋画像" />
-        <img src="/top-image-4.jpg" alt="部屋画像" />
+      <div className="carousel carousel-center rounded space-x-4 my-4 mx-auto w-[95%]">
+        <Image className="carousel-item w-11/12" src={topImage1} alt="部屋画像" />
+        <Image className="carousel-item w-11/12" src={topImage2} alt="部屋画像" />
+        <Image className="carousel-item w-11/12" src={topImage3} alt="部屋画像" />
+        <Image className="carousel-item w-11/12" src={topImage4} alt="部屋画像" />
       </div>
       <div className={styles.mainMessage}>
         かがむと腰が痛い・肩が痛くて腕が上がらない・歩くと股関節が痛いなど、<br/>
@@ -36,7 +43,7 @@ export default function Home() {
       <div className={styles.profile}>
         <div className={styles.kodaiImg}>
           <h1>KODAI</h1>
-          <img src="/koudai.jpg" alt="金澤航大" />
+          <Image src={koudaiFace} alt="金澤航大" />
         </div>
         <div className={styles.career}>
           <h2>経歴</h2>
@@ -123,10 +130,10 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.qrAndAccess}>
-        <div className={styles.lineQr}>
-          <h2>お問い合わせ先</h2>
+        <div className='w-2/4 text-center'>
+          <h2 className='font-bold mb-4'>お問い合わせ先</h2>
           <Link href="https://lin.ee/qzUDHGR" target='_blank'>
-            <img src="/qrcode.jpg" alt="LINE QRコード" />
+            <Image className='w-4/5 mx-auto' src={lineQr} alt="LINE QRコード" />
           </Link>
         </div>
         <div className={styles.access}>

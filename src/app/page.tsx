@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from "./page.module.css";
 import React from "react";
 import Image from 'next/image'
 import topImage1 from '../../public/top-image-1.jpg'
@@ -20,8 +19,8 @@ export default function Home() {
         </Link>
       </div>
     </header>
-    <div className={styles.content}>
-      <div className={styles.topMessage}>
+    <div className='font-serif text-center mb-8'>
+      <div className='text-sm mt-8'>
         幸福感を決める最も重要な項目は身体が健康であること。
       </div>
       <div className="carousel carousel-center rounded space-x-4 my-4 mx-auto w-[95%]">
@@ -30,7 +29,7 @@ export default function Home() {
         <Image className="carousel-item w-11/12" src={topImage3} alt="部屋画像" />
         <Image className="carousel-item w-11/12" src={topImage4} alt="部屋画像" />
       </div>
-      <div className={styles.mainMessage}>
+      <div className='w-[95%] mx-auto my-5 text-[8px] text-center'>
         かがむと腰が痛い・肩が痛くて腕が上がらない・歩くと股関節が痛いなど、<br/>
         Improve Stretchでは、そんな人の人生の幸福度を高めるサポートをさせていただきます。<br/>
         Improveとは「向上」<br/>
@@ -40,28 +39,28 @@ export default function Home() {
         ストレッチで身体が動く楽しさを知って欲しい<br/>
         Improve Stretchではお客様の「こうなりたい！」に全力でサポート致します。<br/>
       </div>
-      <div className={styles.profile}>
-        <div className={styles.kodaiImg}>
+      <div className='flex mb-5'>
+        <div className='w-2/4 text-center'>
           <h1>KODAI</h1>
-          <Image src={koudaiFace} alt="金澤航大" />
+          <Image className='rounded-full w-4/5 mx-auto' src={koudaiFace} alt="金澤航大" />
         </div>
-        <div className={styles.career}>
-          <h2>経歴</h2>
-          <p>名古屋リゾート&スポーツ専門学校卒業</p>
-          <p>卒業後　業界No. 1大手ストレッチ専門店入社</p>
-          <p>在職中に　関西→関東、初駅中新店舗立ち上げ→関西</p>
-          <p>退職後、関西初出店新店舗立ち上げメンバーとして</p>
-          <p>ストレッチ専門店入社</p>
-          <p>立ち上げ後、新店舗の立て直しとして店長に就任。</p>
-          <p>新人育成、店舗運営を経験し売上大幅アップに貢献。</p>
-          <p>在職中、関西個人売上No.１、指名数No.1、</p>
-          <p>総施術数No.１、新規&指名リピート率No.１、経験あり。</p>
-          <p>2023年5月〜Improve Stretch 開業</p>
+        <div className='text-center'>
+          <h2 className='mb-5'>経歴</h2>
+          <p className='text-[7px]'>名古屋リゾート&スポーツ専門学校卒業</p>
+          <p className='text-[7px]'>卒業後　業界No. 1大手ストレッチ専門店入社</p>
+          <p className='text-[7px]'>在職中に　関西→関東、初駅中新店舗立ち上げ→関西</p>
+          <p className='text-[7px]'>退職後、関西初出店新店舗立ち上げメンバーとして</p>
+          <p className='text-[7px]'>ストレッチ専門店入社</p>
+          <p className='text-[7px]'>立ち上げ後、新店舗の立て直しとして店長に就任。</p>
+          <p className='text-[7px]'>新人育成、店舗運営を経験し売上大幅アップに貢献。</p>
+          <p className='text-[7px]'>在職中、関西個人売上No.１、指名数No.1、</p>
+          <p className='text-[7px]'>総施術数No.１、新規&指名リピート率No.１、経験あり。</p>
+          <p className='text-[7px]'>2023年5月〜Improve Stretch 開業</p>
         </div>
       </div>
-      <div className={styles.license}>
-        <h1>LICENSE</h1>
-        <div className={styles.licenseList}>
+      <div className='w-4/5 mx-auto mb-8'>
+        <h1 className='text-center mb-2'>LICENSE</h1>
+        <div className='text-xs text-left'>
           <ul>
             <li>健康運動実践指導者</li>
             <li>JATI-ATI</li>
@@ -70,74 +69,74 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <div className={styles.price}>
-        <h1>料金表</h1>
-        <div className={styles.message}>
+      <div className='text-center mb-6'>
+        <h1 className='mb-2'>料金表</h1>
+        <div className='text-xs'>
           ストレッチで身体の本来の動きを引き出し、<br/>
           お客様一人一人に合わせたプランでサポート致します。<br/>
           Ex. 肩こり・腰痛・姿勢改善・ゴルフパフォーマンスアップなど<br/>
         </div>
       </div>
-      <div className={styles.priceCards}>
-        <div className={styles.timeCard}>
-          <div className={styles.fortyMinutes}>
+      <div className='w-[95%] mb-8 mx-auto'>
+        <div className='grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-5'>
+          <div className='shadow-lg text-center rounded-xl'>
             <br/>
             <h3>40分</h3>
             <br/><br/>
             <h3>¥ 5,500</h3>
             <br/>
-            <p>上半身もしくは</p>
-            <p>下半身のみの施術</p>
+            <p className='text-xs'>上半身もしくは</p>
+            <p className='text-xs'>下半身のみの施術</p>
             <br/>
           </div>
-          <div className={styles.sixMinutes}>
+          <div className='shadow-lg text-center rounded-xl'>
             <br/>
             <h3>60分</h3>
             <br/><br/>
             <h3>¥ 7,700</h3>
             <br/>
-            <p>全身スッキリプラン</p>
+            <p className='text-xs'>全身スッキリプラン</p>
             <br/>
           </div>
-          <div className={styles.eightyMinutes}>
+          <div className='shadow-lg text-center rounded-xl'>
             <br/>
             <h3>80分</h3>
-            <p className={styles.recommendation}>おすすめ</p>
+            <p className='underline text-red-500'>おすすめ</p>
             <br/>
             <h3>¥ 9,900</h3>
             <br/>
-            <p>全身</p>
-            <p>＋</p>
-            <p>体の気になる箇所</p>
+            <p className='text-xs'>全身</p>
+            <p className='text-xs'>＋</p>
+            <p className='text-xs'>体の気になる箇所</p>
             <br/>
           </div>
-          <div className={styles.hundredMinutes}>
+          <div className='shadow-lg text-center rounded-xl'>
             <br/>
             <h3>100分</h3>
             <br/><br/>
             <h3>¥ 12,100</h3>
             <br/>
-            <p>全身</p>
-            <p>＋</p>
-            <p>コアを鍛え</p>
-            <p>悩みを繰り返さない体づくり</p>
+            <p className='text-xs'>全身</p>
+            <p className='text-xs'>＋</p>
+            <p className='text-xs'>コアを鍛え</p>
+            <p className='text-xs'>悩みを繰り返さない体づくり</p>
             <br/>
           </div>
         </div>
-        <div className={styles.optionCard}>
+        <div className='shadow-lg text-center rounded-xl py-3'>
           <h3>オプション</h3>
           トレーニング　　10分　　　¥ 1,000
         </div>
       </div>
-      <div className={styles.qrAndAccess}>
+      <div className='flex'>
         <div className='w-2/4 text-center'>
           <h2 className='font-bold mb-4'>お問い合わせ先</h2>
           <Link href="https://lin.ee/qzUDHGR" target='_blank'>
             <Image className='w-4/5 mx-auto' src={lineQr} alt="LINE QRコード" />
           </Link>
         </div>
-        <div className={styles.access}>
-          <h2>アクセス</h2>
+        <div className='text-[7px]'>
+          <h2 className='text-center text-2xl'>アクセス</h2>
           〒572-0084<br/>
           大阪府寝屋川市香里南之町32-5 YNレジデンス香里607<br/>
           TEL： 090-4234-9046<br/>

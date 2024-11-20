@@ -1,12 +1,6 @@
 import Link from 'next/link'
 import React from "react";
 import Image from 'next/image'
-import topImage1 from '../../public/top-image-1.jpg'
-import topImage2 from '../../public/top-image-2.jpg'
-import topImage3 from '../../public/top-image-3.jpg'
-import topImage4 from '../../public/top-image-4.jpg'
-import koudaiFace from '../../public/koudai.jpg'
-import lineQr from '../../public/qrcode.jpg'
 
 export default function Home() {
   return (
@@ -24,10 +18,10 @@ export default function Home() {
         幸福感を決める最も重要な項目は身体が健康であること。
       </div>
       <div className="carousel carousel-center rounded space-x-4 my-4 mx-auto w-[95%]">
-        <Image className="carousel-item w-11/12" src={topImage1} alt="部屋画像" />
-        <Image className="carousel-item w-11/12" src={topImage2} alt="部屋画像" />
-        <Image className="carousel-item w-11/12" src={topImage3} alt="部屋画像" />
-        <Image className="carousel-item w-11/12" src={topImage4} alt="部屋画像" />
+        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg" alt="部屋画像" width={1000} height={240} />
+        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-2.jpg" alt="部屋画像" width={1000} height={240} />
+        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-3.jpg" alt="部屋画像" width={1000} height={240} />
+        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg" alt="部屋画像" width={1000} height={240} />
       </div>
       <div className='w-[95%] mx-auto my-5 text-[8px] text-center'>
         かがむと腰が痛い・肩が痛くて腕が上がらない・歩くと股関節が痛いなど、<br/>
@@ -42,7 +36,7 @@ export default function Home() {
       <div className='flex mb-5'>
         <div className='w-2/4 text-center'>
           <h1>KODAI</h1>
-          <Image className='rounded-full w-4/5 mx-auto' src={koudaiFace} alt="金澤航大" />
+          <Image className='rounded-full w-4/5 mx-auto' src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/koudai.jpg" alt="金澤航大" width={1000} height={240} />
         </div>
         <div className='text-center'>
           <h2 className='mb-5'>経歴</h2>
@@ -132,7 +126,7 @@ export default function Home() {
         <div className='w-2/4 text-center'>
           <h2 className='font-bold mb-4'>お問い合わせ先</h2>
           <Link href="https://lin.ee/qzUDHGR" target='_blank'>
-            <Image className='w-4/5 mx-auto' src={lineQr} alt="LINE QRコード" />
+            <Image className='w-4/5 mx-auto' src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/qrcode.jpg" alt="LINE QRコード" width={1000} height={240} />
           </Link>
         </div>
         <div className='text-[7px]'>

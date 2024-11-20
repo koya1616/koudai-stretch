@@ -18,7 +18,7 @@ export default function Home() {
         幸福感を決める最も重要な項目は身体が健康であること。
       </div>
       <div className="carousel carousel-center rounded space-x-4 my-4 mx-auto w-[95%]">
-        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg" alt="部屋画像" width={400} height={240} />
+        <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg" alt="部屋画像" width={400} height={240} priority />
         <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-2.jpg" alt="部屋画像" width={400} height={240} />
         <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-3.jpg" alt="部屋画像" width={400} height={240} />
         <Image className="carousel-item w-11/12" src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg" alt="部屋画像" width={400} height={240} />

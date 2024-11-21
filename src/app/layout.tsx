@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Header } from '@/app/ui/header';
 
 export const metadata: Metadata = {
   title: "Improve stretch | 初回限定価格 | 寝屋川 | 香里園 | ストレッチ",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-w-md mx-auto">{children}</body>
+      <body className="max-w-md mx-auto">
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

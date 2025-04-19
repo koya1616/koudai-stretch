@@ -9,7 +9,7 @@ export default function Home() {
 				<div className="text-sm mt-8">
 					幸福感を決める最も重要な項目は身体が健康であること。
 				</div>
-				<div className="carousel carousel-center rounded space-x-4 my-4 mx-auto w-[95%]">
+				<div className="carousel carousel-center rounded-sm space-x-4 my-4 mx-auto w-[95%]">
 					<Image
 						className="carousel-item w-11/12"
 						src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg"

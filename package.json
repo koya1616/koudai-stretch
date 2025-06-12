@@ -7,9 +7,10 @@
 		"build": "next build",
 		"vercel-build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "biome check --write . && tsc --noEmit"
 	},
 	"dependencies": {
+		"googleapis": "^150.0.1",
 		"next": "^15.1.1",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"

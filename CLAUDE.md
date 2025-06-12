@@ -11,8 +11,7 @@ This is a Next.js website for "Improve Stretch" - a stretch therapy business in 
 - **Start development server**: `pnpm dev` (runs on port 3721)
 - **Build production**: `pnpm build`
 - **Production start**: `pnpm start`
-- **Lint code**: `pnpm lint`
-- **Format code**: Use Biome for formatting and linting (`@biomejs/biome` configured)
+- **Lint and typecheck**: `pnpm lint` (runs Biome check with auto-fix + TypeScript compiler check)
 
 ## Tech Stack & Architecture
 
@@ -30,16 +29,19 @@ This is a Next.js website for "Improve Stretch" - a stretch therapy business in 
 - **Import organization**: Enabled via Biome
 - **Mobile-first**: Layout uses `max-w-md mx-auto` for mobile optimization
 
-## Key Components
+## Architecture & Key Features
 
-- **Layout**: Mobile-optimized layout with Header component
-- **Header**: Business name and address with Google Maps link
-- **Main Page**: Single-page application with carousel, profile, pricing grid
-- **Images**: Hosted on Vercel Blob Storage
+- **Google Calendar Integration**: API route at `/api/calendar` fetches events using Google Calendar API
+  - Requires `GOOGLE_SERVICE_ACCOUNT_KEY` and `GOOGLE_CALENDAR_ID` environment variables
+  - Service account authentication with read-only calendar scope
+  - Fetches events for next 30 days (despite "今週" in UI)
+- **Calendar UI**: `/src/app/ui/calendar.tsx` displays formatted events with date/time ranges
+- **Mobile-first Design**: All layouts optimized for mobile with `max-w-md mx-auto`
+- **Static Assets**: Images hosted on Vercel Blob Storage (external)
 
 ## Project Structure
 
-The app follows Next.js App Router structure with:
-- `src/app/` - Main application code
-- `src/app/ui/` - Reusable UI components
-- Static content served from external Vercel Blob Storage
+- `src/app/` - Next.js App Router pages and API routes
+- `src/app/ui/` - Reusable UI components (header, calendar)
+- `src/app/api/calendar/` - Google Calendar integration API endpoint
+- `src/app/calendar/` - Calendar display page

@@ -5,7 +5,9 @@ export function Header() {
 		<>
 			<header className="shadow-md">
 				<div className="flex justify-between items-center my-0 mx-auto w-[95%] h-14">
-					<h1 className="font-bold">IMPROVE STRETCH</h1>
+					<Link href="/" className="font-bold">
+						IMPROVE STRETCH
+					</Link>
 					<Link
 						href="https://maps.app.goo.gl/5B4auCXvHaYtT2qg9"
 						target="_blank"

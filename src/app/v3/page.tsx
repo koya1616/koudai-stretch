@@ -1,7 +1,7 @@
+import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 
 const bodyFont = Noto_Sans_JP({
 	weight: ["300", "400", "500", "600", "700"],

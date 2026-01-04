@@ -1,31 +1,31 @@
 {
-  "name": "koudai-stretch",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev -p 3721",
-    "build": "next build",
-    "vercel-build": "next build",
-    "start": "next start",
-    "lint": "biome check --write . && tsc --noEmit"
-  },
-  "dependencies": {
-    "googleapis": "^150.0.1",
-    "next": "15.1.11",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@tailwindcss/postcss": "^4.1.4",
-    "@types/node": "^22.10.2",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
-    "daisyui": "^5.0.27",
-    "eslint": "^9.17.0",
-    "eslint-config-next": "^15.1.1",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^4.1.4",
-    "typescript": "^5.7.2"
-  }
+	"name": "koudai-stretch",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3721",
+		"build": "next build",
+		"vercel-build": "next build",
+		"start": "next start",
+		"lint": "biome check --write . && tsc --noEmit"
+	},
+	"dependencies": {
+		"googleapis": "^150.0.1",
+		"next": "15.1.11",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@tailwindcss/postcss": "^4.1.4",
+		"@types/node": "^22.10.2",
+		"@types/react": "^19.0.2",
+		"@types/react-dom": "^19.0.2",
+		"daisyui": "^5.0.27",
+		"eslint": "^9.17.0",
+		"eslint-config-next": "^15.1.1",
+		"postcss": "^8.4.49",
+		"tailwindcss": "^4.1.4",
+		"typescript": "^5.7.2"
+	}
 }

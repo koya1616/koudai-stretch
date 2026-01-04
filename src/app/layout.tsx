@@ -5,11 +5,11 @@ import { Header } from "@/app/ui/header";
 export const metadata: Metadata = {
 	metadataBase: new URL("https://improve-stretch.jp"),
 	title: {
-		default: "Improve Stretch | 寝屋川・香里園のストレッチ専門店",
+		default: "Improve Stretch | 寝屋川・香里園のストレッチ",
 		template: "%s | Improve Stretch",
 	},
 	description:
-		"肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
+		"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ「Improve Stretch」。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
 	keywords: [
 		"ストレッチ",
 		"寝屋川",
@@ -41,23 +41,23 @@ export const metadata: Metadata = {
 		locale: "ja_JP",
 		url: "https://improve-stretch.jp",
 		siteName: "Improve Stretch",
-		title: "Improve Stretch | 寝屋川・香里園のストレッチ専門店",
+		title: "寝屋川・香里園のストレッチ | Improve Stretch",
 		description:
-			"肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
+			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
 		images: [
 			{
 				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
 				width: 1200,
 				height: 630,
-				alt: "Improve Stretch - 寝屋川香里園のストレッチ専門店の施術室",
+				alt: "Improve Stretch - 寝屋川香里園のストレッチ施術室",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Improve Stretch | 寝屋川・香里園のストレッチ専門店",
+		title: "寝屋川・香里園のストレッチ | Improve Stretch",
 		description:
-			"肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
+			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
 		images: [
 			"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
 		],
@@ -74,6 +74,8 @@ const structuredData = {
 			"@type": "LocalBusiness",
 			"@id": "https://improve-stretch.jp/#localbusiness",
 			name: "Improve Stretch",
+			description:
+				"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり・腰痛・姿勢改善などでお悩みの方に、経験豊富なプロのトレーナーが一人一人に合わせた施術を提供します。",
 			image: [
 				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
 				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-2.jpg",
@@ -138,7 +140,7 @@ const structuredData = {
 			"@id": "https://improve-stretch.jp/#website",
 			url: "https://improve-stretch.jp",
 			name: "Improve Stretch",
-			description: "寝屋川・香里園のストレッチ専門店",
+			description: "寝屋川・香里園のストレッチ",
 			publisher: {
 				"@id": "https://improve-stretch.jp/#organization",
 			},

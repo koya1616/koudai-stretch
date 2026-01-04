@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-	title: "初回限定価格 | 寝屋川・香里園のストレッチ専門店",
+	title: "寝屋川・香里園のストレッチ | Improve Stretch | 初回限定価格",
 	description:
-		"肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
+		"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ「Improve Stretch」。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
 	openGraph: {
-		title: "Improve Stretch | 初回限定価格 | 寝屋川・香里園",
+		title: "寝屋川・香里園のストレッチ | Improve Stretch",
 		description:
-			"肩こり腰痛身体の硬さなどでお悩みの方に！全身ストレッチが特別価格に！",
+			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！全身ストレッチが特別価格に！",
 		url: "https://improve-stretch.jp",
 	},
 	alternates: {

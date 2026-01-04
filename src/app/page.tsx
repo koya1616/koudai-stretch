@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "初回限定価格 | 寝屋川・香里園のストレッチ専門店",
+	description:
+		"肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
+	openGraph: {
+		title: "Improve Stretch | 初回限定価格 | 寝屋川・香里園",
+		description:
+			"肩こり腰痛身体の硬さなどでお悩みの方に！全身ストレッチが特別価格に！",
+		url: "https://improve-stretch.jp",
+	},
+	alternates: {
+		canonical: "https://improve-stretch.jp",
+	},
+};
 
 const bodyFont = Noto_Sans_JP({
 	weight: ["300", "400", "500", "600", "700"],
@@ -44,7 +60,7 @@ export default function Home() {
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
 										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg"
-										alt="部屋画像"
+										alt="Improve Stretch施術室の内観 - リラックスできる空間"
 										width={400}
 										height={240}
 										priority
@@ -52,21 +68,21 @@ export default function Home() {
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
 										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-2.jpg"
-										alt="部屋画像"
+										alt="Improve Stretch施術ベッド - プロ仕様のストレッチ設備"
 										width={400}
 										height={240}
 									/>
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
 										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-3.jpg"
-										alt="部屋画像"
+										alt="Improve Stretch施術室全景 - 清潔で広々とした空間"
 										width={400}
 										height={240}
 									/>
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
 										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg"
-										alt="部屋画像"
+										alt="Improve Stretch待合スペース - 落ち着いた雰囲気"
 										width={400}
 										height={240}
 									/>
@@ -198,7 +214,7 @@ export default function Home() {
 									<Image
 										className="rounded-full"
 										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/koudai.jpg"
-										alt="金澤航大"
+										alt="Improve Stretch代表 金澤航大(KODAI) - 経験豊富なストレッチトレーナー"
 										width={180}
 										height={180}
 									/>
@@ -271,7 +287,7 @@ export default function Home() {
 								<Image
 									className="rounded-xl"
 									src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/qrcode.jpg"
-									alt="LINE QRコード"
+									alt="Improve Stretch LINE公式アカウント QRコード - 予約・お問い合わせ"
 									width={180}
 									height={180}
 								/>

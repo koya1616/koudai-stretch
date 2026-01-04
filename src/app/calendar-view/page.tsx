@@ -1,5 +1,4 @@
 import CalendarView from "@/app/ui/calendar-view";
-import { Header } from "@/app/ui/header";
 
 export default function CalendarViewPage() {
 	return (

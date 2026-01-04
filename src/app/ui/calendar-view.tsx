@@ -24,14 +24,6 @@ interface TimeSlot {
 	dateObj: Date;
 }
 
-interface CalendarDay {
-	date: Date;
-	dayNumber: number;
-	isCurrentMonth: boolean;
-	isToday: boolean;
-	slots: TimeSlot[];
-}
-
 export default function CalendarView() {
 	const [calendarData, setCalendarData] = useState<CalendarData | null>(null);
 	const [loading, setLoading] = useState(true);
@@ -266,7 +258,7 @@ export default function CalendarView() {
 	const selectedDateOnly = new Date(selectedDate);
 	selectedDateOnly.setHours(0, 0, 0, 0);
 	const isPrevDisabled = selectedDateOnly <= today;
-	const isToday = selectedDateOnly.getTime() === today.getTime();
+	const _isToday = selectedDateOnly.getTime() === today.getTime();
 
 	return (
 		<div

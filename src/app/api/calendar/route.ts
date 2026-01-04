@@ -1,7 +1,7 @@
 import { google } from "googleapis";
 import { type NextRequest, NextResponse } from "next/server";
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
 	try {
 		const serviceAccountKey = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
 		const calendarId = process.env.GOOGLE_CALENDAR_ID;

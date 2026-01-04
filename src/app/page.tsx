@@ -5,7 +5,7 @@ import React from "react";
 export default function Home() {
 	return (
 		<>
-			<div className="font-serif text-center mb-8">
+			<div className="font-serif text-center mb-8 max-w-md mx-auto">
 				<div className="text-sm mt-8">
 					幸福感を決める最も重要な項目は身体が健康であること。
 				</div>

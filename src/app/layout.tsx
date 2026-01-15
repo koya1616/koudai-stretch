@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 		template: "%s | Improve Stretch",
 	},
 	description:
-		"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ「Improve Stretch」。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
+		"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ「Improve Stretch」。肩こり腰痛身体の硬さなどでお悩みの方に！揉みほぐしでは届かない深層の筋肉にアプローチし、筋肉の柔軟性アップ・関節可動域の拡大を経験豊富なプロのトレーナーが動かす。",
 	keywords: [
 		"ストレッチ",
 		"寝屋川",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 		siteName: "Improve Stretch",
 		title: "寝屋川・香里園のストレッチ | Improve Stretch",
 		description:
-			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
+			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！",
 		images: [
 			{
 				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "寝屋川・香里園のストレッチ | Improve Stretch",
 		description:
-			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！初回ご来店だと全身ストレッチが特別価格に！",
+			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！",
 		images: [
 			"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
 		],

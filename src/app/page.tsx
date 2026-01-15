@@ -144,23 +144,16 @@ export default function Home() {
 
 						<div className="mt-10 grid gap-5 sm:grid-cols-2">
 							<div className="rounded-3xl border border-white/70 bg-white/90 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] transition-transform duration-300 hover:-translate-y-1">
-								<h3 className="text-2xl font-semibold text-slate-900">40分</h3>
+								<h3 className="text-2xl font-semibold text-slate-900">100分</h3>
 								<p className="mt-3 text-3xl font-semibold text-teal-700">
-									¥ 5,500
+									¥ 12,100
 								</p>
 								<p className="mt-3 text-sm text-slate-600 sm:text-base">
-									上半身もしくは
+									全身
+									<br />+<br />
+									コアを鍛え
 									<br />
-									下半身のみの施術
-								</p>
-							</div>
-							<div className="rounded-3xl border border-white/70 bg-white/90 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] transition-transform duration-300 hover:-translate-y-1">
-								<h3 className="text-2xl font-semibold text-slate-900">60分</h3>
-								<p className="mt-3 text-3xl font-semibold text-teal-700">
-									¥ 7,700
-								</p>
-								<p className="mt-3 text-sm text-slate-600 sm:text-base">
-									全身スッキリプラン
+									悩みを繰り返さない体づくり
 								</p>
 							</div>
 							<div className="rounded-3xl border border-teal-200 bg-gradient-to-br from-white via-teal-50 to-amber-50 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] transition-transform duration-300 hover:-translate-y-1">
@@ -178,16 +171,23 @@ export default function Home() {
 								</p>
 							</div>
 							<div className="rounded-3xl border border-white/70 bg-white/90 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] transition-transform duration-300 hover:-translate-y-1">
-								<h3 className="text-2xl font-semibold text-slate-900">100分</h3>
+								<h3 className="text-2xl font-semibold text-slate-900">60分</h3>
 								<p className="mt-3 text-3xl font-semibold text-teal-700">
-									¥ 12,100
+									¥ 7,700
 								</p>
 								<p className="mt-3 text-sm text-slate-600 sm:text-base">
-									全身
-									<br />+<br />
-									コアを鍛え
+									全身スッキリプラン
+								</p>
+							</div>
+							<div className="rounded-3xl border border-white/70 bg-white/90 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] transition-transform duration-300 hover:-translate-y-1">
+								<h3 className="text-2xl font-semibold text-slate-900">40分</h3>
+								<p className="mt-3 text-3xl font-semibold text-teal-700">
+									¥ 5,500
+								</p>
+								<p className="mt-3 text-sm text-slate-600 sm:text-base">
+									上半身もしくは
 									<br />
-									悩みを繰り返さない体づくり
+									下半身のみの施術
 								</p>
 							</div>
 						</div>

@@ -196,7 +196,7 @@ export default function Home() {
 							<h3 className="text-lg font-semibold text-slate-900">
 								オプション
 							</h3>
-							<p className="mt-2">トレーニング　　10分　　　¥ 1,000</p>
+							<p className="mt-2">トレーニング　　10分　　　¥ 1,100</p>
 						</div>
 					</div>
 				</section>

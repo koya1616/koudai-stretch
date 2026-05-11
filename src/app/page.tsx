@@ -63,6 +63,7 @@ export default function Home() {
 										alt="Improve Stretch施術室の内観 - リラックスできる空間"
 										width={400}
 										height={240}
+										sizes="(max-width: 640px) calc(50vw - 40px), (max-width: 768px) calc(50vw - 46px), 220px"
 										priority
 									/>
 									<Image
@@ -71,6 +72,7 @@ export default function Home() {
 										alt="Improve Stretch施術ベッド - プロ仕様のストレッチ設備"
 										width={400}
 										height={240}
+										sizes="(max-width: 640px) calc(50vw - 40px), (max-width: 768px) calc(50vw - 46px), 220px"
 									/>
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
@@ -78,6 +80,7 @@ export default function Home() {
 										alt="Improve Stretch施術室全景 - 清潔で広々とした空間"
 										width={400}
 										height={240}
+										sizes="(max-width: 640px) calc(50vw - 40px), (max-width: 768px) calc(50vw - 46px), 220px"
 									/>
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
@@ -85,6 +88,7 @@ export default function Home() {
 										alt="Improve Stretch待合スペース - 落ち着いた雰囲気"
 										width={400}
 										height={240}
+										sizes="(max-width: 640px) calc(50vw - 40px), (max-width: 768px) calc(50vw - 46px), 220px"
 									/>
 								</div>
 							</div>

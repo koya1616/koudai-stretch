@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,23 +17,9 @@ export const metadata: Metadata = {
 	},
 };
 
-const bodyFont = Noto_Sans_JP({
-	weight: ["300", "400", "500", "600", "700"],
-	subsets: ["latin"],
-	display: "swap",
-});
-
-const headingFont = Noto_Serif_JP({
-	weight: ["400", "600", "700"],
-	subsets: ["latin"],
-	display: "swap",
-});
-
 export default function Home() {
 	return (
-		<div
-			className={`${bodyFont.className} min-h-screen bg-[#f7f4ef] text-slate-900`}
-		>
+		<div className="min-h-screen bg-[#f7f4ef] text-slate-900">
 			<div className="relative overflow-hidden">
 				<div className="pointer-events-none absolute -top-24 right-0 h-72 w-72 rounded-full bg-[radial-gradient(circle_at_center,rgba(14,116,144,0.22),transparent_70%)] blur-2xl" />
 				<div className="pointer-events-none absolute left-0 top-40 h-80 w-80 -translate-x-1/3 rounded-full bg-[radial-gradient(circle_at_center,rgba(244,114,182,0.18),transparent_70%)] blur-3xl" />
@@ -43,9 +28,7 @@ export default function Home() {
 				<section className="relative mx-auto max-w-6xl px-4 pb-8 pt-12 sm:px-6 sm:pt-20 md:pt-24">
 					<div className="grid gap-10 md:grid-cols-[1.1fr,0.9fr] md:items-center">
 						<div className="animate-fade-in">
-							<h1
-								className={`${headingFont.className} mt-4 text-2xl leading-relaxed sm:text-3xl md:text-4xl`}
-							>
+							<h1 className="font-serif mt-4 text-2xl leading-relaxed sm:text-3xl md:text-4xl">
 								<span className="block">幸福感を決める</span>
 								<span className="block">最も重要な項目は</span>
 								<span className="mt-3 block text-3xl font-semibold text-teal-700 sm:text-4xl md:text-5xl">
@@ -130,9 +113,7 @@ export default function Home() {
 				<section className="mx-auto max-w-6xl px-4 pb-14 sm:px-6 sm:pb-20">
 					<div className="animate-fade-in-delay-3">
 						<div className="text-center">
-							<h2
-								className={`${headingFont.className} text-3xl font-semibold text-slate-900 sm:text-4xl`}
-							>
+							<h2 className="font-serif text-3xl font-semibold text-slate-900 sm:text-4xl">
 								料金表
 							</h2>
 							<p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
@@ -209,9 +190,7 @@ export default function Home() {
 					<div className="animate-fade-in-delay-4 rounded-[32px] bg-white/80 p-6 shadow-[0_25px_80px_-55px_rgba(15,23,42,0.55)] backdrop-blur sm:p-10">
 						<div className="grid gap-8 md:grid-cols-[1fr,1.2fr] md:items-center">
 							<div className="text-center">
-								<h2
-									className={`${headingFont.className} text-2xl font-semibold text-slate-900 sm:text-3xl`}
-								>
+								<h2 className="font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
 									KODAI
 								</h2>
 								<div className="mt-5 inline-flex rounded-full bg-white/90 p-2 shadow-lg">
@@ -225,9 +204,7 @@ export default function Home() {
 								</div>
 							</div>
 							<div>
-								<h3
-									className={`${headingFont.className} text-xl font-semibold text-slate-900 sm:text-2xl`}
-								>
+								<h3 className="font-serif text-xl font-semibold text-slate-900 sm:text-2xl">
 									経歴
 								</h3>
 								<div className="mt-4 space-y-2 text-xs text-slate-600 sm:text-sm">
@@ -248,9 +225,7 @@ export default function Home() {
 						</div>
 
 						<div className="mt-8 border-t border-slate-200/70 pt-8">
-							<h3
-								className={`${headingFont.className} text-center text-xl font-semibold text-slate-900 sm:text-2xl`}
-							>
+							<h3 className="font-serif text-center text-xl font-semibold text-slate-900 sm:text-2xl">
 								LICENSE
 							</h3>
 							<ul className="mt-5 grid gap-3 text-xs text-slate-700 sm:grid-cols-2 sm:text-sm">
@@ -278,9 +253,7 @@ export default function Home() {
 				<section className="mx-auto max-w-6xl px-4 pb-14 sm:px-6 sm:pb-20">
 					<div className="animate-fade-in-delay-5 grid gap-6 md:grid-cols-2">
 						<div className="rounded-[28px] bg-white/85 p-6 text-center shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] backdrop-blur sm:p-8">
-							<h2
-								className={`${headingFont.className} text-xl font-semibold text-slate-900 sm:text-2xl`}
-							>
+							<h2 className="font-serif text-xl font-semibold text-slate-900 sm:text-2xl">
 								お問い合わせ先
 							</h2>
 							<Link
@@ -302,9 +275,7 @@ export default function Home() {
 						</div>
 
 						<div className="rounded-[28px] bg-white/85 p-6 shadow-[0_20px_60px_-50px_rgba(15,23,42,0.7)] backdrop-blur sm:p-8">
-							<h2
-								className={`${headingFont.className} text-center text-xl font-semibold text-slate-900 sm:text-2xl`}
-							>
+							<h2 className="font-serif text-center text-xl font-semibold text-slate-900 sm:text-2xl">
 								アクセス
 							</h2>
 							<div className="mt-5 space-y-2 text-xs text-slate-600 sm:text-sm">

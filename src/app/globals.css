@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+	--font-sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+		"Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+	--font-serif: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", Georgia,
+		serif;
+}
+
 /* スムーズスクロール体験の向上 */
 html {
 	scroll-behavior: smooth;

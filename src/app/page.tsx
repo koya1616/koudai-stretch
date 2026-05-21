@@ -42,7 +42,7 @@ export default function Home() {
 								<div className="grid grid-cols-2 gap-3">
 									<Image
 										className="h-full w-full rounded-2xl object-cover"
-										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg"
+										src="https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg"
 										alt="Improve Stretch施術室の内観 - リラックスできる空間"
 										width={400}
 										height={240}

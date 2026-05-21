@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！",
 		images: [
 			{
-				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
+				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg",
 				width: 1200,
 				height: 630,
 				alt: "Improve Stretch - 寝屋川香里園のストレッチ施術室",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 		description:
 			"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり腰痛身体の硬さなどでお悩みの方に！",
 		images: [
-			"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
+			"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg",
 		],
 	},
 	alternates: {
@@ -77,7 +77,7 @@ const structuredData = {
 			description:
 				"寝屋川市・香里園駅徒歩5分のパーソナルストレッチ。肩こり・腰痛・姿勢改善などでお悩みの方に、経験豊富なプロのトレーナーが一人一人に合わせた施術を提供します。",
 			image: [
-				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
+				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg",
 				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-2.jpg",
 				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-3.jpg",
 				"https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg",
@@ -121,7 +121,7 @@ const structuredData = {
 			url: "https://improve-stretch.jp",
 			logo: {
 				"@type": "ImageObject",
-				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-1.jpg",
+				url: "https://x73yjxo4qx7cwsgw.public.blob.vercel-storage.com/top-image-4.jpg",
 			},
 			founder: {
 				"@type": "Person",
